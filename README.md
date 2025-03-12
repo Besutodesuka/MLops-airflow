@@ -10,7 +10,18 @@
 ## Dataset
 Mentally stability of the person
 source: https://www.kaggle.com/competitions/mentally-stability-of-the-person/data?select=train.csv
-
+## to test this code
+1. clone this repo
+2. cd to the folder
+3. docker-compose up
+4. go to localhost:8080
+- username: airflow
+- password: airflow
+5. go to desired dags (eg. playground_cleaning_dag)
+6. view result
+### note
+- you can get out put file via result folder and you can get your data via data folder
+- for adding more folder please edit volumns mapping in docker compose file
 ## EDA and Feature engineering
 ![image](https://github.com/user-attachments/assets/f233f6ed-4b2b-4552-95c2-e1ed4ccbe853)
 
