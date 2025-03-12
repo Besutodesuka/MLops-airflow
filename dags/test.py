@@ -1,12 +1,10 @@
 import datetime
 import pandas as pd
 from airflow.decorators import dag, task
+import os
 
-
-DATA_PATH = (
-    "../data/train.csv"
-)
-CLEANED_DATA_PATH = "../result/train_cleaned.csv"
+DATA_PATH = os.path.join(os.getcwd(),"data/train.csv")
+CLEANED_DATA_PATH = os.path.join(os.getcwd(),"result/train_cleaned.csv") 
 
 
 @dag(
