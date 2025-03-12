@@ -4,9 +4,9 @@ from airflow.decorators import dag, task
 
 
 DATA_PATH = (
-    "/Users/rqobist/Documents/airflow/mentally-stability-of-the-person/train.csv"
+    "../data/train.csv"
 )
-CLEANED_DATA_PATH = "/Users/rqobist/Documents/airflow/train_cleaned.csv"
+CLEANED_DATA_PATH = "../result/train_cleaned.csv"
 
 
 @dag(
