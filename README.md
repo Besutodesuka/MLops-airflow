@@ -9,11 +9,14 @@
 
 ## Dataset
 Mentally stability of the person
-source: [link]{https://www.kaggle.com/competitions/mentally-stability-of-the-person/data?select=train.csv}
+source: https://www.kaggle.com/competitions/mentally-stability-of-the-person/data?select=train.csv
 
 ## EDA and Feature engineering
+![image](https://github.com/user-attachments/assets/f233f6ed-4b2b-4552-95c2-e1ed4ccbe853)
+
 Figure1 : visualize null values inside the dataset
-	Null columns are: 
+
+### Null columns are: 
 Profession                             104070 non-null  object
 Academic Pressure                      27897 non-null   float64
  Work Pressure                          112782 non-null  float64
@@ -23,6 +26,7 @@ Academic Pressure                      27897 non-null   float64
  Dietary Habits                         140696 non-null  object 
  Degree        			140698 non-null  object
 
+### questions
 
 Q1: Why are there missing data in the profession?
 Ans: because students are not graduated and do not obtain a profession.
